@@ -1,3 +1,8 @@
+@import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
+:root {
+    --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
+}
+
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
 
 :root {
@@ -20,10 +25,6 @@ div[aria-label="Explore Discoverable Servers"],
 .newMemberBadge_ed263a, 
 [class*=channelAppLauncher_] {
   display: none !important;
-}
-
-img.emoji {
-  opacity: 1; /* Changed 100 to 1 for proper value */
 }
 
 .shakeReaction {
